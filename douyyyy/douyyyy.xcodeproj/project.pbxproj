@@ -8,10 +8,17 @@
 
 /* Begin PBXBuildFile section */
 		A8E253B4824CF614F276139B /* Pods_douyyyy.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0A9B370201C72ADC49A6EB7C /* Pods_douyyyy.framework */; };
+		BB4F0961272539FE00A49347 /* TabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB4F0960272539FE00A49347 /* TabBarViewController.swift */; };
+		BB4F096327253A2900A49347 /* FeedRootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB4F096227253A2900A49347 /* FeedRootViewController.swift */; };
+		BB4F096527253A6200A49347 /* FriendRootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB4F096427253A6200A49347 /* FriendRootViewController.swift */; };
+		BB4F096727253A8100A49347 /* CameraRootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB4F096627253A8100A49347 /* CameraRootViewController.swift */; };
+		BB4F096927253AA000A49347 /* MessageRootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB4F096827253AA000A49347 /* MessageRootViewController.swift */; };
+		BB4F096B27253AB800A49347 /* ProfileRootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB4F096A27253AB800A49347 /* ProfileRootViewController.swift */; };
+		BB4F097027254BBB00A49347 /* FeedContainerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB4F096F27254BBB00A49347 /* FeedContainerViewController.swift */; };
+		BB4F097327254EE800A49347 /* FeedContainerCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB4F097227254EE800A49347 /* FeedContainerCollectionViewCell.swift */; };
+		BB4F09762725556300A49347 /* UIViewController+DouYin.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB4F09752725556300A49347 /* UIViewController+DouYin.swift */; };
 		BBF6A7E92725295400ABAB0F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBF6A7E82725295400ABAB0F /* AppDelegate.swift */; };
 		BBF6A7EB2725295400ABAB0F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBF6A7EA2725295400ABAB0F /* SceneDelegate.swift */; };
-		BBF6A7ED2725295400ABAB0F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBF6A7EC2725295400ABAB0F /* ViewController.swift */; };
-		BBF6A7F02725295400ABAB0F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BBF6A7EE2725295400ABAB0F /* Main.storyboard */; };
 		BBF6A7F22725295500ABAB0F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BBF6A7F12725295500ABAB0F /* Assets.xcassets */; };
 		BBF6A7F52725295500ABAB0F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BBF6A7F32725295500ABAB0F /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
@@ -20,11 +27,18 @@
 		0A9B370201C72ADC49A6EB7C /* Pods_douyyyy.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_douyyyy.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2FB68066A7A82808B0EC0A5F /* Pods-douyyyy.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-douyyyy.release.xcconfig"; path = "Target Support Files/Pods-douyyyy/Pods-douyyyy.release.xcconfig"; sourceTree = "<group>"; };
 		830C9C59F5043590D389F101 /* Pods-douyyyy.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-douyyyy.debug.xcconfig"; path = "Target Support Files/Pods-douyyyy/Pods-douyyyy.debug.xcconfig"; sourceTree = "<group>"; };
+		BB4F0960272539FE00A49347 /* TabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarViewController.swift; sourceTree = "<group>"; };
+		BB4F096227253A2900A49347 /* FeedRootViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedRootViewController.swift; sourceTree = "<group>"; };
+		BB4F096427253A6200A49347 /* FriendRootViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendRootViewController.swift; sourceTree = "<group>"; };
+		BB4F096627253A8100A49347 /* CameraRootViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraRootViewController.swift; sourceTree = "<group>"; };
+		BB4F096827253AA000A49347 /* MessageRootViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageRootViewController.swift; sourceTree = "<group>"; };
+		BB4F096A27253AB800A49347 /* ProfileRootViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileRootViewController.swift; sourceTree = "<group>"; };
+		BB4F096F27254BBB00A49347 /* FeedContainerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedContainerViewController.swift; sourceTree = "<group>"; };
+		BB4F097227254EE800A49347 /* FeedContainerCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedContainerCollectionViewCell.swift; sourceTree = "<group>"; };
+		BB4F09752725556300A49347 /* UIViewController+DouYin.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+DouYin.swift"; sourceTree = "<group>"; };
 		BBF6A7E52725295400ABAB0F /* douyyyy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = douyyyy.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BBF6A7E82725295400ABAB0F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BBF6A7EA2725295400ABAB0F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		BBF6A7EC2725295400ABAB0F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		BBF6A7EF2725295400ABAB0F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		BBF6A7F12725295500ABAB0F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BBF6A7F42725295500ABAB0F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BBF6A7F62725295500ABAB0F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -50,6 +64,120 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		BB4F0954272538D000A49347 /* Tab */ = {
+			isa = PBXGroup;
+			children = (
+				BB4F095A2725394000A49347 /* ViewControllers */,
+			);
+			path = Tab;
+			sourceTree = "<group>";
+		};
+		BB4F0956272538F700A49347 /* Friend */ = {
+			isa = PBXGroup;
+			children = (
+				BB4F095C2725397600A49347 /* ViewControllers */,
+			);
+			path = Friend;
+			sourceTree = "<group>";
+		};
+		BB4F09572725390B00A49347 /* Camera */ = {
+			isa = PBXGroup;
+			children = (
+				BB4F095D2725397B00A49347 /* ViewControllers */,
+			);
+			path = Camera;
+			sourceTree = "<group>";
+		};
+		BB4F09582725391B00A49347 /* Message */ = {
+			isa = PBXGroup;
+			children = (
+				BB4F095E2725397F00A49347 /* ViewControllers */,
+			);
+			path = Message;
+			sourceTree = "<group>";
+		};
+		BB4F09592725392D00A49347 /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				BB4F095F2725398600A49347 /* ViewControllers */,
+			);
+			path = Profile;
+			sourceTree = "<group>";
+		};
+		BB4F095A2725394000A49347 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				BB4F0960272539FE00A49347 /* TabBarViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		BB4F095B2725397300A49347 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				BB4F096227253A2900A49347 /* FeedRootViewController.swift */,
+				BB4F096F27254BBB00A49347 /* FeedContainerViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		BB4F095C2725397600A49347 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				BB4F096427253A6200A49347 /* FriendRootViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		BB4F095D2725397B00A49347 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				BB4F096627253A8100A49347 /* CameraRootViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		BB4F095E2725397F00A49347 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				BB4F096827253AA000A49347 /* MessageRootViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		BB4F095F2725398600A49347 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				BB4F096A27253AB800A49347 /* ProfileRootViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		BB4F096C272549BC00A49347 /* Feed */ = {
+			isa = PBXGroup;
+			children = (
+				BB4F097127254E8B00A49347 /* Views */,
+				BB4F095B2725397300A49347 /* ViewControllers */,
+			);
+			path = Feed;
+			sourceTree = "<group>";
+		};
+		BB4F097127254E8B00A49347 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				BB4F097227254EE800A49347 /* FeedContainerCollectionViewCell.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		BB4F0974272554FE00A49347 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				BB4F09752725556300A49347 /* UIViewController+DouYin.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
 		BBF6A7DC2725295400ABAB0F = {
 			isa = PBXGroup;
 			children = (
@@ -71,10 +199,15 @@
 		BBF6A7E72725295400ABAB0F /* douyyyy */ = {
 			isa = PBXGroup;
 			children = (
+				BB4F0974272554FE00A49347 /* Utils */,
+				BB4F09592725392D00A49347 /* Profile */,
+				BB4F09582725391B00A49347 /* Message */,
+				BB4F09572725390B00A49347 /* Camera */,
+				BB4F0956272538F700A49347 /* Friend */,
+				BB4F096C272549BC00A49347 /* Feed */,
+				BB4F0954272538D000A49347 /* Tab */,
 				BBF6A7E82725295400ABAB0F /* AppDelegate.swift */,
 				BBF6A7EA2725295400ABAB0F /* SceneDelegate.swift */,
-				BBF6A7EC2725295400ABAB0F /* ViewController.swift */,
-				BBF6A7EE2725295400ABAB0F /* Main.storyboard */,
 				BBF6A7F12725295500ABAB0F /* Assets.xcassets */,
 				BBF6A7F32725295500ABAB0F /* LaunchScreen.storyboard */,
 				BBF6A7F62725295500ABAB0F /* Info.plist */,
@@ -88,7 +221,6 @@
 				830C9C59F5043590D389F101 /* Pods-douyyyy.debug.xcconfig */,
 				2FB68066A7A82808B0EC0A5F /* Pods-douyyyy.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -154,7 +286,6 @@
 			files = (
 				BBF6A7F52725295500ABAB0F /* LaunchScreen.storyboard in Resources */,
 				BBF6A7F22725295500ABAB0F /* Assets.xcassets in Resources */,
-				BBF6A7F02725295400ABAB0F /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -207,8 +338,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BBF6A7ED2725295400ABAB0F /* ViewController.swift in Sources */,
+				BB4F096527253A6200A49347 /* FriendRootViewController.swift in Sources */,
+				BB4F096927253AA000A49347 /* MessageRootViewController.swift in Sources */,
 				BBF6A7E92725295400ABAB0F /* AppDelegate.swift in Sources */,
+				BB4F0961272539FE00A49347 /* TabBarViewController.swift in Sources */,
+				BB4F09762725556300A49347 /* UIViewController+DouYin.swift in Sources */,
+				BB4F097027254BBB00A49347 /* FeedContainerViewController.swift in Sources */,
+				BB4F096727253A8100A49347 /* CameraRootViewController.swift in Sources */,
+				BB4F097327254EE800A49347 /* FeedContainerCollectionViewCell.swift in Sources */,
+				BB4F096327253A2900A49347 /* FeedRootViewController.swift in Sources */,
+				BB4F096B27253AB800A49347 /* ProfileRootViewController.swift in Sources */,
 				BBF6A7EB2725295400ABAB0F /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -216,14 +355,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		BBF6A7EE2725295400ABAB0F /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				BBF6A7EF2725295400ABAB0F /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		BBF6A7F32725295500ABAB0F /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -364,7 +495,6 @@
 				INFOPLIST_FILE = douyyyy/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -393,7 +523,6 @@
 				INFOPLIST_FILE = douyyyy/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
